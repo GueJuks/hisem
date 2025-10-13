@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Analisi Sentimen</title>
+    <!-- Link Lineicons -->
+     <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet">
+    <!-- Link Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="mx-5">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-12 bg-primary side">
+
+          <div class="card">
+            <div class="card-body">
+              <div class="mb-3">Masukkan File csv</label>
+                <input class="form-control" type="file" id="formFile">
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <div class="card-body">
+              text clasification
+              <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-3">
+            <div class="card-body">
+              
+              <div class="card">
+                <h5 class="card-header">Positif Label</h5>
+                <div class="card-body">
+                  
+                  <p class="card-text">Precision</p>
+                  <p class="card-text">Precision</p>
+                  <p class="card-text">Precision</p>
+                  
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <h5 class="card-header">Negatif Label</h5>
+                <div class="card-body">
+                  
+                  <p class="card-text">Precision</p>
+                  <p class="card-text">Precision</p>
+                  <p class="card-text">Precision</p>
+                  
+                </div>
+              </div>
+
+              <div class="card mt-3">
+                <h5 class="card-header">Akurasi</h5>
+                <div class="card-body">
+                  
+                  <p class="card-text">Hasil Akurasi</p>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-9 col-md-12 main">
+          <div class="text-center border rounded p-3 mt-3">
+            <h1 class="text-center">DETEKSI SENTIMEN PENGGUNA X</h1>
+
+            <div class="row g-2">
+              <div class="col-sm-12 col-md-6">
+                <div class="border rounded p-3">Wordcloud Positif</div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="border rounded p-3">Wordcloud Negatif</div>
+              </div>
+            </div>
+
+            <div class="row g-2 mt-2">
+              <div class="col-sm-12 col-md-6">
+                <div class="border rounded p-3">Chart</div>
+              </div>
+              <div class="col-sm-12 col-md-6">
+                <div class="border rounded p-3">Confusion Matrix</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

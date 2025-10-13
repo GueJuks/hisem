@@ -1,0 +1,10 @@
+.side {
+    height: auto;
+    padding-top: 20px;
+}
+
+/* @media screen and (width : 1200px) {
+    .side {
+        height: 1000px;
+    }
+} */
